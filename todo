@@ -1,3 +1,5 @@
-1. Create generator functions to generate dummy emails.
-  1. On running the function, download the dummy json
-  2. place the json in the data folder
+- Create generator functions to generate dummy emails. @done
+  - On running the function, download the dummy json @done
+  - place the json in the data folder @done
+
+2. Fix: CSS : Mails overflowing in because of some scroll heighting issue
