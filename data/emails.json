@@ -1,0 +1,16 @@
+[{
+    "timestamp": "",    
+    "sender":{
+        "id":"",
+        "name":""
+    },
+    "opened":"",
+    "starred":"",
+    "important":"",  
+    "subject":"",
+    "attachmentFl":"",
+    "attachments":[{
+        "type":"pdf",
+        "name":"Hello.pdf"
+    }]
+}]
