@@ -1,52 +1,146 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css" />
+        <!-- All css stylesheets -->
+        <link rel="stylesheet" href="styles/index.css" />
+        <link rel="stylesheet" href="styles/navbar.css" />
+        <link rel="stylesheet" href="styles/sidebar.css" />
+        <link rel="stylesheet" href="styles/toolbar.css" />
+        <link rel="stylesheet" href="styles/mailContainer.css" />
+
+        <!-- All script - to be loaded AFTER the html (id's) loads -->
         <script src="scripts/generators/emailGenerator.js" defer></script>
         <script src="index.js" defer></script>
     </head>
     
-    <body>
-        <a id="downloadAnchorElem" style="display:none"></a>
+    <body class="layout">
+        
         
         <!-- Top navbar [PERSISTENT] -->
-        <div class="navbar">
-            <div class="hamburger"></div>
+        <div class="navbar graySeparatorBottom">  
+            <a id="downloadAnchorElem" style="display:none"></a>         
             <div class="logo">
-                Gmail
+                <div class="hamburger"></div>
+                <img title="logo" src="assets/logo_gmail_lockup_default_2x_r2.png" alt="Gmail"> 
             </div>
             <div class="searchBar">
                 <input value="" placeholder="Enter search text" oninput="" />
             </div>
-            <div class="settings">
-                Settings
-            </div>
-            <div class="profile">
-                Profile
-            </div>
+            <div class="right">
+                <div class="settings item">
+                    Settings
+                </div>
+                <div class="profile item">
+                    Profile
+                </div>
+            </div>        
         </div>
 
 
-        <!-- The sidebar [PERSISTENT] -->
-        <div class="sidebar">
-            <div class="composeBtn">
-                + Compose
+        <div class="main">
+
+             <!-- The sidebar [PERSISTENT] -->
+            <div class="sidebar">
+                <div class="composeBtn">
+                    + Compose
+                </div>
+
+                <div class="messageFilters">
+                    <ul>
+                        <li>Inbox</li>
+                        <li>Starred</li>
+                        <li>Important</li>
+                        <li>Drafts</li>
+                        <li>Sent</li>
+                    </ul>
+                </div>
             </div>
+            
 
-            <div class="messageFilters">
-                <ul>
-                    <li>Inbox</li>
-                    <li>Starred</li>
-                    <li>Important</li>
-                    <li>Drafts</li>
-                    <li>Sent</li>
-                </ul>
+
+            <!-- Mail area window -->
+            <div class="mailArea">
+
+                <!-- the top toolbar in the mail area wiht checkboxes etc. -->
+                <div class="toolbar graySeparatorBottom">
+                    <div class="left">
+                        <div class="checkbox toolbarAction">[]</div>
+                        <div class="reload toolbarAction">Reload</div>
+                        <div class="moreOptions toolbarAction"></div>
+                    </div>
+                    <div class="right">
+                        <div class="pagination toolbarAction">
+                            1-50 of 4,632
+                        </div>
+                        <div class="paginationButtons toolbarAction">
+                            < &nbsp; >
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="mailContainer">
+                    <div class="categoryTabs graySeparatorBottom">
+                        <div class="tab">Primary</div>
+                        <div class="tab">Social</div>
+                        <div class="tab">Promotions</div>
+                    </div>
+                    <div class="mails">
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                        <div class="mail">Hello these are the 50 mails       </div>
+                    </ul> 
+                </div>          
             </div>
-        </div>
-
-
-        <!-- Mail area window -->
-        <div class="mailArea">
-            Hello these are the 50 mails            
         </div>
     </body>
     

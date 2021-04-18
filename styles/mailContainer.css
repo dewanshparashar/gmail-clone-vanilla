@@ -1,0 +1,52 @@
+.mailArea {
+  width: 100%;
+}
+
+.mailContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: scroll;
+}
+
+.mailContainer .categoryTabs {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  box-sizing: border-box;
+}
+
+.mailContainer .categoryTabs .tab {
+  width: 250px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.mailContainer .mails {
+  /* height: 100%;
+    overflow: scroll; */
+}
+
+.mailContainer .mails .mail {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  -webkit-box-shadow: inset 0 -1px 0 0 rgb(100 121 143 / 12%);
+  box-shadow: inset 0 -1px 0 0 rgb(100 121 143 / 12%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  background: rgba(242, 245, 245, 0.8);
+  color: #202124;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.mailContainer .mails .mail:hover {
+  box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0,
+    0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  z-index: 2;
+}

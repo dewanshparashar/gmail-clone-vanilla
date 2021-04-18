@@ -1,0 +1,26 @@
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+  height: 48px;
+  align-items: center;
+  margin: 0 4px;
+  box-sizing: border-box;
+}
+
+.toolbar .left {
+  display: flex;
+}
+
+.toolbar .left .toolbarAction {
+  margin-right: 10px;
+}
+
+.toolbar .right {
+  display: flex;
+}
+
+.toolbar .right .toolbarAction {
+  margin-left: 10px;
+}

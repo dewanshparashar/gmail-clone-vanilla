@@ -1,0 +1,24 @@
+/* All the common, reusable styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202124;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.graySeparatorBottom {
+  border-bottom: 1px solid #eceff1;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 50px);
+  box-sizing: border-box;
+}
