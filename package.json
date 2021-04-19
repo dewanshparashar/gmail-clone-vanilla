@@ -1,0 +1,22 @@
+{
+  "name": "gmail-clone-vanilla",
+  "version": "1.0.0",
+  "description": "Clone of Gmail interface implemented in plain old javascript. No plugins, no libraries/frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewanshparashar/gmail-clone-vanilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dewanshparashar/gmail-clone-vanilla/issues"
+  },
+  "homepage": "https://github.com/dewanshparashar/gmail-clone-vanilla#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
